@@ -11,7 +11,7 @@ var router = express.Router();
 
 router.get('/duplicate_entry', async(req, res) =>{
 
-try{
+try(){
 
 	const controllerResponse = await scriptController.getDuplicateEntry();
 	res.send({
@@ -23,11 +23,9 @@ try{
 }
 catch(e){
 	console.log('Error: ',e);
-	res.send(e);
-}
+	res.send(e)
+	;
 
 })
 
 
-
-module.exports = router;

@@ -1,0 +1,19 @@
+/** REQUIRED PACKAGES **/
+
+
+/** EXPORT GETDUPLICATE ENTRY FUNCTION **/
+exports.getDuplicateEntry = async () => {
+
+	try{
+
+	
+	}catch(e){
+		console.log('IN CONTROLLER: ',e);
+		return {
+			status: 1,
+			message: e,
+			file: 'IN CONTROLLER'
+		};
+	}
+
+}
