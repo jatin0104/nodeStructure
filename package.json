@@ -4,13 +4,19 @@
   "description": "Script to remove duplicate entries",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.7",
     "express": "^4.17.1",
     "http": "0.0.1-security",
     "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
   }
 }
